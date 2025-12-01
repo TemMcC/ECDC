@@ -189,7 +189,7 @@ example-prefix-42
 ### Конфигурация №1
 
 ```powershell
-$env:ECDC_SECRET = "super-secret"
+$env:ECDC_SECRET = "sUpEr_SeCrEt_PaSsWoRd_oHfX0bPKb+jyFCY*LW^9k!HXE7TI]WZFyU="
 $env:ECDC_TWEAK  = "example"
 $env:ECDC_ITER   = "200000"
 $env:ECDC_KDF    = "sha256"
@@ -214,7 +214,7 @@ python ecdc_cli.py decg --ugid="-7119-7817-4657-9366"
 ### Конфигурация №2 (другой `TWEAK`)
 
 ```powershell
-$env:ECDC_SECRET = "super-secret"
+$env:ECDC_SECRET = "sUpEr_SeCrEt_PaSsWoRd_oHfX0bPKb+jyFCY*LW^9k!HXE7TI]WZFyU="
 $env:ECDC_TWEAK  = "test"
 $env:ECDC_ITER   = "200000"
 $env:ECDC_KDF    = "sha256"
